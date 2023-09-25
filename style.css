@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(130, 134, 224);
+  font-family: Glass Antiqua;
+  margin: 1rem auto;
+  max-width: 80rem;
+  color: white;
+}
+
+figure {
+  padding: 1rem;
+  margin: 1rem;
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  position: sticky;
+
+  justify-content: center;
+  top: 3rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 8rem;
+  font-family: Glass Antiqua;
+  font-weight: 100;
+  color: black;
+  font-size: 65px;
+}
+
+section {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.tooltiptext {
+  visibility: hidden;
+  color: black;
+}
+
+.career:hover .tooltiptext {
+  visibility: visible;
+}
+
+.hobby:hover .tooltiptext {
+  visibility: visible;
+}
+
+.passion:hover .tooltiptext {
+  visibility: visible;
+}
+
+figure {
+  align-self: flex-start;
+  display: flex;
+  position: sticky;
+  top: 3rem;
+}
+
+body {
+  font-family: "Glass Antiqua";
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  color: rgb(83, 0, 214);
+}
+
+p {
+  font-size: 20px;
+  word-spacing: 2px;
+  line-height: 1.8;
+}
+
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Plane*/
+.plane {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f6eb.png) 36 36, auto;
+}
+
+/*Camera*/
+.camera {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4f8.png) 36 36, auto;
+}
+
+/*National Park*/
+.nationalpark {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3de.png) 36 36, auto;
+}
